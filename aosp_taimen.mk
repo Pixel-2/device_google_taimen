@@ -30,6 +30,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
 
+VANILLA_BUILD := true
+
 # Inherit device configuration
 $(call inherit-product, device/google/taimen/device.mk)
 
